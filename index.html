@@ -118,15 +118,13 @@
 <!-- ====================== -->
 <div id="page1" class="page active">
     <div class="card">
-        <img class="logo" src="https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/logo.png" alt="爆爆电竞">
+        <img class="logo" src="images/logo.png" alt="爆爆电竞">
         <h1 class="title">爆爆电竞俱乐部</h1>
         <p class="subtitle">点击查看服务</p>
 
         <div class="button-group">
             <button class="price-btn" onclick="goToBanban()">🧾 五一限时特惠单</button>
             <button class="price-btn" onclick="goToPeiwan()">🎮 护航陪玩体验单</button>
-            
-            <!-- 点击跳转到趣味单页面 -->
             <button class="price-btn" onclick="goToQuwei()">🎉 趣味单</button>
         </div>
     </div>
@@ -137,13 +135,13 @@
 <!-- ====================== -->
 <div id="page2" class="page">
     <div class="card">
-        <img class="logo" src="https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/logo.png" alt="爆爆电竞">
+        <img class="logo" src="images/logo.png" alt="爆爆电竞">
         <h1 class="title">板板权益中心</h1>
         <div class="button-group">
-            <button class="price-btn" onclick="openImg('https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/xianshi.png')">📜 五一限时活动</button>
-            <button class="price-btn" onclick="openImg('https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/wuyibakeshen.png')">🎁 五一巴克什趣味单</button>
-            <button class="price-btn" onclick="openImg('https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/wuyilaodong.png')">🛡️ 五一劳动趣味单</button>
-            <button class="price-btn" onclick="openImg('https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/wuyimenggongjie.png')">🛖猛攻节趣味单</button>
+            <button class="price-btn" onclick="openImg('images/xianshi.png')">📜 五一限时活动</button>
+            <button class="price-btn" onclick="openImg('images/wuyibakeshen.png')">🎁 五一巴克什趣味单</button>
+            <button class="price-btn" onclick="openImg('images/wuyilaodong.png')">🛡️ 五一劳动趣味单</button>
+            <button class="price-btn" onclick="openImg('images/wuyimenggongjie.png')">🛖猛攻节趣味单</button>
             <button class="price-btn back-btn" onclick="goBack()">🔙 返回主页</button>
         </div>
     </div>
@@ -154,29 +152,27 @@
 <!-- ====================== -->
 <div id="page3" class="page">
     <div class="card">
-        <img class="logo" src="https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/logo.png" alt="爆爆电竞">
+        <img class="logo" src="images/logo.png" alt="爆爆电竞">
         <h1 class="title">护航陪玩体验</h1>
         <div class="button-group">
-            <button class="price-btn" onclick="openImg('https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/peiwan1.png')">⭐ 体验单</button>
-            <button class="price-btn" onclick="openImg('https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/peiwan2.png')">🔥 大神护航</button>
-            <button class="price-btn" onclick="openImg('https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/peiwan.png')">💎 定制陪玩</button>
+            <button class="price-btn" onclick="openImg('images/peiwan1.png')">⭐ 体验单</button>
+            <button class="price-btn" onclick="openImg('images/peiwan2.png')">🔥 大神护航</button>
+            <button class="price-btn" onclick="openImg('images/peiwan.png')">💎 定制陪玩</button>
             <button class="price-btn back-btn" onclick="goBack()">🔙 返回主页</button>
         </div>
     </div>
 </div>
 
 <!-- ====================== -->
-<!-- 第 4 页：趣味单（新页面） -->
+<!-- 第 4 页：趣味单 -->
 <!-- ====================== -->
 <div id="page4" class="page">
     <div class="card">
-        <img class="logo" src="https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/logo.png" alt="爆爆电竞">
+        <img class="logo" src="images/logo.png" alt="爆爆电竞">
         <h1 class="title">趣味单中心</h1>
         <div class="button-group">
-            <!-- 三个趣味单按钮 -->
-            <button class="price-btn" onclick="openImg('https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/jiaochunidejindan.png')">🎪交出你的金蛋</button>
-            <button class="price-btn" onclick="openImg('https://cdn.jsdelivr.net/gh/710894919/710894919.github.io/images/dafuwengbaodi.png')">🎭大富翁保底版</button>
-            
+            <button class="price-btn" onclick="openImg('images/jiaochunidejindan.png')">🎪交出你的金蛋</button>
+            <button class="price-btn" onclick="openImg('images/dafuwengbaodi.png')">🎭大富翁保底版</button>
             <button class="price-btn back-btn" onclick="goBack()">🔙 返回主页</button>
         </div>
     </div>
@@ -201,7 +197,7 @@ function goToPeiwan() {
     document.getElementById("page3").classList.add("active");
 }
 
-// 去趣味单（新增）
+// 去趣味单
 function goToQuwei() {
     document.getElementById("page1").classList.remove("active");
     document.getElementById("page4").classList.add("active");
